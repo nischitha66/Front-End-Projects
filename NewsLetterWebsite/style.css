@@ -1,0 +1,160 @@
+body{
+    font: 15px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;  
+    padding: 0;
+    margin: 0;
+}
+body .container
+{
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header
+{
+    background-color: #35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: right;
+    display: inline;
+    padding: 1px 20px 0 20px;
+    cursor: pointer;
+}
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin :0;
+}
+header nav
+{
+    float: right;
+    margin-top: 10px;
+
+}
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+header li:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+header .highlight{
+    color: #e8491d;
+}
+ #showcase{
+    min-height: 400px;
+    background: url('images/showcase.png')  no-repeat;
+    background-size: cover;
+    background-position-y:70% ;
+    color:white;
+ }
+
+ #showcase h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+ }
+
+ #showcase p{
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+ }
+ #newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background-color: #35424a;
+ }
+
+ #newsletter h1{
+    float: left;
+ }
+ #newsletter form{
+    float: right;
+    margin-top:15px ;
+ }
+
+ #newsletter input[ type="email"]{
+    width:250px;
+    height: 26px;
+    padding: 4px;
+    border: none;
+ }
+ .button_1{
+     height: 37px;
+     width: 80px;
+     background: #e8491d;
+     border: 0;
+     color: white;
+     font-weight: bold;
+ }
+ #boxed{
+    margin-top: 15px;
+ }
+ #boxes .box{
+    float: left;
+ }
+ #boxes img{
+    float: left;
+    width: 150px;
+    align-items: center;
+    align-content: center;
+    margin: 100px;
+    padding-left: 140px;
+    padding-bottom: 25px ;
+    margin-bottom: 20px;
+    margin-top: 45px;
+ }
+section h4, section p{
+    text-align: center;
+    width: 200px;
+    margin-top: 50px ;
+    margin:50px 50px 0 180px;
+
+ }
+ section p{
+    width: 250px;
+    margin-top: 0;
+    padding-bottom: 0;
+ }
+ section h4{
+    padding: 20px;
+    padding-left: 20px;
+    padding-bottom:10PX;
+    font-size: large;
+    font-weight: bolder;
+    font-size: 18px;
+ }
+ #footer footer{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 363px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    background-color: #e8491d;
+ }
+ #footer foot{
+    padding-top: 0px;
+    margin-top: 0px;
+ }
